@@ -43,11 +43,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [x] Describe Middleware?
     functions that have acess to req, res, and next
 - [x] Describe a Resource?
-    D
+    Resoures are anthing that can be used 
 - [x] What can the API return to help clients know if a request was successful?
-    by http status
+    by http statuses
 - [x] How can we partition our application into sub-applications?
-    Routing
+    Routing and seperating differnt crud on seperate data
 ## Minimum Viable Product
 
 - [x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
@@ -55,8 +55,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Design and build the necessary endpoints to:
 
-- [ ] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
-- [ ] Retrieve the list of actions for a project.
+- [x] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+- [x] Retrieve the list of actions for a project.
 
 Please read the following sections before implementing the Minimum Viable Product, they describe how the database is structured and the files and methods available for interacting with the data.
 
